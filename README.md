@@ -41,6 +41,13 @@ This project assumes approved MIMIC access and local data preparation consistent
 4. Predict mortality and decompose uncertainty via dropout x graph sampling.
 5. Apply post-hoc temperature scaling for calibration.
 
+## Sample Graphs
+
+<img width="3590" height="2773" alt="image" src="https://github.com/user-attachments/assets/9c34730f-8490-494f-9e48-b2bac2b55188" />
+
+<img width="3590" height="2773" alt="image" src="https://github.com/user-attachments/assets/27504442-6ad6-42fd-8cab-08d8a8f812ba" />
+
+
 ## Quick Start
 1. Clone this repository.
 2. Install Python dependencies used in the notebooks.
@@ -50,7 +57,7 @@ This project assumes approved MIMIC access and local data preparation consistent
 ## Reproducibility Notes
 - Reported experiments use patient-level split separation.
 - Bootstrap confidence intervals are computed with 1,000 resamples.
-- Performance and ablation details are documented in `TEGoT_Architecture_Results.md`.
+
 
 ## Citation
 If you use this repository or ideas from TEGoT, please cite the TEGoT project and associated manuscript once finalized.
